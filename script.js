@@ -116,8 +116,8 @@ function typeWriter(element, text, speed = 100) {
         } else {
             // highlight the name after typing completes
             element.innerHTML = element.innerHTML.replace(
-                'Azzam Saeh',
-                '<span class="highlight">Azzam Saeh</span>'
+                'Azzam Saleh',
+                '<span class="highlight">Azzam Saleh</span>'
             );
         }
     }
@@ -131,7 +131,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const heroTitle = document.querySelector('.hero-title');
 if (heroTitle) {
     setTimeout(() => {
-        typeWriter(heroTitle, "Hi, I'm Azzam Saeh", 50);
+        typeWriter(heroTitle, "Hi, I'm Azzam Saleh", 50);
     }, 1000);
 }
 });
